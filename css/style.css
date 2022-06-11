@@ -152,6 +152,7 @@ a {
     color: #BD952A;
 }
  */
+
 a:hover {
     color: white;
     font-weight: 500;
@@ -180,6 +181,11 @@ form {
 .contenedorItems img {
     width: 200px;
     height: 200px;
+   /*   */
+}
+
+.contenedorItems img:hover {
+    filter: saturate(200%);
 }
 
 .contenedorItems {
